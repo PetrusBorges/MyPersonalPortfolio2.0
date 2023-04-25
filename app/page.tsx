@@ -1,8 +1,11 @@
-import InitialPage from "./components/InitialPage/page";
+import InitialPage from "./components/InitialPage";
+import Opacity from "./components/Opacity";
 
 const Home = () => {
   return (
     <>
+      <Opacity />
+
       <InitialPage />
     </>
   );
