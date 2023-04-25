@@ -72,6 +72,8 @@ const InitialPage = () => {
           transition-transform
           hover:transform
           hover:translate-x-9
+          animated-move-in-slow-1
+          opacity-0
         "
           onMouseOver={() => handleHover('about', true)}
           onMouseOut={() => handleHover('about', false)}
@@ -86,6 +88,8 @@ const InitialPage = () => {
           transition-transform
           hover:transform
           hover:translate-x-9
+          animated-move-in-slow-2
+          opacity-0
         "
           onMouseOver={() => handleHover('work', true)}
           onMouseOut={() => handleHover('work', false)}
@@ -101,6 +105,8 @@ const InitialPage = () => {
           transition-transform
           hover:transform
           hover:translate-x-9
+          animated-move-in-slow-3
+          opacity-0
         "
           onMouseOver={() => handleHover('contact', true)}
           onMouseOut={() => handleHover('contact', false)}
