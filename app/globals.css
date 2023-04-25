@@ -18,3 +18,37 @@
   animation-timing-function: linear;
   animation-fill-mode: forwards;
 }
+
+@keyframes move-in {
+  from {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animated-move-in-slow-1 {
+  animation-name: move-in;
+  animation-duration: 0.4s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+.animated-move-in-slow-2 {
+  animation-name: move-in;
+  animation-duration: 0.4s;
+  animation-delay: 0.4s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+.animated-move-in-slow-3 {
+  animation-name: move-in;
+  animation-duration: 0.4s;
+  animation-delay: 0.8s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
