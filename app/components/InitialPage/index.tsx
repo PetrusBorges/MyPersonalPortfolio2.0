@@ -67,13 +67,11 @@ const InitialPage = () => {
         <Link
           href='/about'
           className="
-        text-white
+          text-white
           font-medium
-          transition-transform
-          hover:transform
+          transition
           hover:translate-x-9
           animated-move-in-slow-1
-          opacity-0
         "
           onMouseOver={() => handleHover('about', true)}
           onMouseOut={() => handleHover('about', false)}
@@ -83,10 +81,9 @@ const InitialPage = () => {
         <Link
           href='/work'
           className="
-        text-white
+          text-white
           font-medium
-          transition-transform
-          hover:transform
+          transition
           hover:translate-x-9
           animated-move-in-slow-2
           opacity-0
@@ -102,8 +99,7 @@ const InitialPage = () => {
           bg-gradient-to-br from-cyan-500 to-purple-500
           bg-clip-text text-transparent
           font-medium
-          transition-transform
-          hover:transform
+          transition
           hover:translate-x-9
           animated-move-in-slow-3
           opacity-0
