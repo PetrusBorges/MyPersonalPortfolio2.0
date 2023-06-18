@@ -1,9 +1,44 @@
+import Image from "next/image"
+
 export default function Home() {
   return (
-    <section
-      className='flex items-center justify-center h-full'
-    >
-      <p>oi</p>
+    <section className="flex flex-col w-full items-center justify-center">
+      
+      <section className="hidden lg:flex w-full h-72 bg-red-500 mb-10"></section>
+
+      <section
+        className='flex flex-col items-start justify-center h-full max-w-sm lg:max-w-3xl'
+      >
+        <div className="flex items-center justify-center gap-5 mb-5">
+          <Image 
+            src='/assets/images/iconPetrus.png'
+            alt='iconPetrus'
+            width={80}
+            height={80}
+            className="rounded-full border-2 border-neutral-800"
+          />
+          <div className="flex flex-col">
+            <div className="flex items-center justify-start gap-1">
+              <p className="text-neutral-500 font-bold">petrus, borges</p>
+              <Image 
+                src='/assets/icons/startIcon.svg'
+                alt='iconPetrus'
+                width={22}
+                height={22}
+              />
+            </div>
+            <p className="text-neutral-500">Front End | React.js | Vue.js | Nest.js</p>
+          </div>
+        </div>
+        <p className="text-justify">
+          Front End Developer with 1 year of experience in creating mobile apps and software. I actively contributed to the development of more than 10 web applications as Front End, using technologies such as React, Vue.js and NestJS. Also, I had the opportunity to participate in the creation of 7 mobile apps using React Native.
+          I worked on web and mobile systems projects for companies like Vasco, Eldorado Prime, Xerife do Carro, Bahia APP, Global SCM and Pé de Podologia.
+        </p>
+        <a 
+        target="_blank"
+        href="https://www.linkedin.com/company/bluelogic-sistemas-e-consultoria/" 
+        className="text-neutral-500 border-b-2 border-transparent transition-all duration-500 hover:border-neutral-800">currently working at Bluelogic Sistemas</a>
+      </section>
     </section>
   )
 }
