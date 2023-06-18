@@ -35,9 +35,18 @@ export default function Home() {
           I worked on web and mobile systems projects for companies like Vasco, Eldorado Prime, Xerife do Carro, Bahia APP, Global SCM and Pé de Podologia.
         </p>
         <a 
-        target="_blank"
-        href="https://www.linkedin.com/company/bluelogic-sistemas-e-consultoria/" 
-        className="text-neutral-500 border-b-2 border-transparent transition-all duration-500 hover:border-neutral-800">currently working at Bluelogic Sistemas</a>
+          target="_blank"
+          href="https://www.linkedin.com/company/bluelogic-sistemas-e-consultoria/" 
+          className="flex items-center justify-center gap-1 text-neutral-500 border-b-2 border-transparent transition-all duration-500 hover:border-neutral-800"
+        >
+          currently working at Bluelogic Sistemas
+          <Image 
+            src='/assets/icons/arrowLinkIcon.svg'
+            alt='iconPetrus'
+            width={22}
+            height={22}
+          />
+        </a>
       </section>
     </section>
   )
