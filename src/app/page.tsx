@@ -20,7 +20,7 @@ export default function Home() {
 
   return (
     <section className="flex flex-col w-full items-center justify-center">
-
+      {/* Section slider */}
       <section
         className={`hidden lg:flex items-center justify-center w-full h-full px-10 mb-10 transition-all duration-500 ${
           isVisible ? 'opacity-100' : 'opacity-0'
@@ -29,6 +29,7 @@ export default function Home() {
         <Slider />
       </section>
 
+      {/* Section info petrus */}
       <section
         className={`flex flex-col items-start justify-center h-full max-w-sm lg:max-w-3xl transition-all duration-500 ${
           isVisible ? 'opacity-100' : 'opacity-0'
@@ -50,7 +51,6 @@ export default function Home() {
                 alt='iconPetrus'
                 width={22}
                 height={22}
-                className="animate-pulse"
               />
             </div>
             <p className="text-neutral-500">Front End | React.js | Vue.js | Nest.js</p>
@@ -63,7 +63,7 @@ export default function Home() {
         <a 
           target="_blank"
           href="https://www.linkedin.com/company/bluelogic-sistemas-e-consultoria/" 
-          className="flex items-center justify-center gap-1 text-neutral-500 border-b-2 border-transparent transition-all duration-500 hover:border-neutral-800"
+          className="flex items-center justify-center gap-1 text-neutral-500 border-b-2 border-transparent transition-all duration-500 hover:border-neutral-800 animate-pulse"
         >
           currently working at Bluelogic Sistemas
           <Image 
