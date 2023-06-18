@@ -1,8 +1,8 @@
 'use client'
 
 import { FC } from 'react'
-
 import { useRouter, usePathname } from 'next/navigation';
+import useSound from 'use-sound';
 
 import Image from 'next/image';
 
@@ -17,11 +17,17 @@ const NavbarButton: FC<NavbarButtonProps> = ({
 }) => {
   const router = useRouter()
   const pathname = usePathname()
+  const [play] = useSound('/sound/bite.mp3')
+
+  const handleNavigate = () => {
+    play()
+    router.push(href)
+  }
 
   return (
     <button
-      onClick={() => router.push(href)}
-      className={`flex items-center justify-center rounded-full hover:bg-neutral-800 w-12 h-12 duration-500 hover:w-20 hover:h-20 ${pathname === href ? 'bg-neutral-400 hover:bg-neutral-300' : 'bg-neutral-900'}`}
+      onClick={handleNavigate}
+      className={`flex items-center justify-center rounded-full border-t-2 border-neutral-700 w-12 h-12 duration-500 hover:w-20 hover:h-20 ${pathname === href ? 'bg-neutral-400 border-neutral-300' : 'bg-neutral-800'}`}
     >
       <Image 
         src={src}

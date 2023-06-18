@@ -1,9 +1,9 @@
-import NavbarButton from './NavbarButton'
+import NavbarButton from "./NavbarButton"
 
 const Navbar = () => {
   return (
     <nav
-      className='border-2 border-neutral-900 flex items-center justify-center gap-1 p-2 rounded-full absolute bottom-5 duration-500 hover:border-transparent'
+      className='border-2 backdrop-blur bg-white/5 border-neutral-800 flex items-center justify-center gap-1 p-2 rounded-full absolute bottom-5 duration-500 hover:border-transparent'
     >
       <NavbarButton 
         src="../assets/icons/homeIcon.svg"
@@ -15,7 +15,7 @@ const Navbar = () => {
       />
       <NavbarButton 
         src="../assets/icons/photoIcon.svg"
-        href='/x'
+        href='/photos'
       />
       <NavbarButton 
         src="../assets/icons/twitterIcon.svg"
