@@ -11,9 +11,12 @@ const Slider = () => {
   return (
     <>
       <Swiper
-        slidesPerView={3}
+        slidesPerView={4}
         spaceBetween={30}
         freeMode={true}
+        pagination={{
+          clickable: true,
+        }}
         modules={[FreeMode]}
         className="mySwiper"
       >
