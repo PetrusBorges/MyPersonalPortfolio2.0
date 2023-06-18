@@ -19,9 +19,9 @@ const CardSlider: FC<CardSliderProps> = ({
       <Image 
         src={href}
         alt='cardSliderIcon'
-        width={1000}
-        height={1000}
-        className='rounded-lg w-full h-full'
+        width={500}
+        height={500}
+        className='rounded-lg'
       />
     </button>
   )
