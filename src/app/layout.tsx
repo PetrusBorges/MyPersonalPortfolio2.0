@@ -2,7 +2,7 @@ import './globals.css'
 
 import { Saira } from 'next/font/google'
 
-import Navbar from '@/components/Navbar/Navbar'
+import Navbar from '@/components/Navbar'
 
 const inter = Saira({ subsets: ['latin'] })
 
