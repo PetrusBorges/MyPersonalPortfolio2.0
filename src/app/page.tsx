@@ -1,10 +1,13 @@
+import Slider from "@/components/Slider"
 import Image from "next/image"
 
 export default function Home() {
   return (
     <section className="flex flex-col w-full items-center justify-center">
       
-      <section className="hidden lg:flex w-full h-72 bg-red-500 mb-10"></section>
+      <section className="hidden lg:flex items-center justify-center w-full h-full px-10 mb-10">
+        <Slider />
+      </section>
 
       <section
         className='flex flex-col items-start justify-center h-full max-w-sm lg:max-w-3xl'
