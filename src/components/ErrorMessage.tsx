@@ -28,7 +28,7 @@ const ErrorMessage: FC<ErrorMessageProps> = ({}) => {
         className='flex items-center justify-center flex-col text-center gap-5 w-full h-full px-2'
       >
         <Image 
-          src='../assets/images/errorIcon.svg'
+          src='/assets/icons/errorIcon.svg'
           alt='ErrorIcon'
           width={98}
           height={98}
