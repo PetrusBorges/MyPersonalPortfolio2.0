@@ -41,7 +41,7 @@ export default function Home() {
             alt='iconPetrus'
             width={80}
             height={80}
-            className="rounded-full border-2 border-neutral-800"
+            className="rounded-full border-2 border-neutral-700"
           />
           <div className="flex flex-col">
             <div className="flex items-center justify-start gap-1">
@@ -63,7 +63,7 @@ export default function Home() {
         <a 
           target="_blank"
           href="https://www.linkedin.com/company/bluelogic-sistemas-e-consultoria/" 
-          className="flex items-center justify-center gap-1 text-neutral-500 border-b-2 border-transparent transition-all duration-500 hover:border-neutral-800 animate-pulse"
+          className="flex items-center justify-center gap-1 text-neutral-500 border-b-2 border-transparent transition-all duration-500 hover:border-neutral-700 animate-pulse"
         >
           currently working at Bluelogic Sistemas
           <Image 
