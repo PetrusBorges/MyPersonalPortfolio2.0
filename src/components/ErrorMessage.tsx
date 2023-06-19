@@ -25,7 +25,7 @@ const ErrorMessage: FC<ErrorMessageProps> = ({}) => {
       </div>
 
       <div
-        className='flex items-center justify-center flex-col text-center gap-5 w-full h-full px-2'
+        className='flex items-center justify-center flex-col text-center gap-5 w-full h-full'
       >
         <Image 
           src='/assets/icons/errorIcon.svg'
