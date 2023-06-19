@@ -3,7 +3,7 @@ import NavbarButton from "./NavbarButton"
 const Navbar = () => {
   return (
     <nav
-      className='shadow-2xl border-2 border-neutral-800 backdrop-blur bg-white/5 flex items-center justify-center gap-1 p-2 rounded-full absolute bottom-7 duration-500 hover:border-transparent'
+      className='border-2 border-neutral-800 backdrop-blur flex items-center justify-center gap-1 p-2 rounded-full absolute bottom-7 duration-500 hover:border-transparent'
     >
       <NavbarButton 
         isButton
@@ -13,7 +13,7 @@ const Navbar = () => {
       <NavbarButton 
         isButton
         src="../assets/icons/projectIcon.svg"
-        href='/test'
+        href='/projects'
       />
       <NavbarButton 
         isButton
