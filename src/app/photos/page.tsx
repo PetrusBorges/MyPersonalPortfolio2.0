@@ -1,6 +1,6 @@
 import ErrorMessage from "@/components/ErrorMessage"
 
-export default function Test() {
+export default function Photos() {
   return (
     <ErrorMessage />
   )
