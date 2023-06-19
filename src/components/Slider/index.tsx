@@ -22,32 +22,32 @@ const Slider = () => {
       >
         <SwiperSlide>
           <CardSlider
-            href='/assets/images/pai.jpg'
+            href='/assets/images/asd.jpg'
           />
         </SwiperSlide>
         <SwiperSlide>
           <CardSlider
-            href='/assets/images/pai.jpg'
+            href='/assets/images/asd.jpg'
           />
         </SwiperSlide>
         <SwiperSlide>
           <CardSlider
-            href='/assets/images/pai.jpg'
+            href='/assets/images/asd.jpg'
           />
         </SwiperSlide>
         <SwiperSlide>
           <CardSlider
-            href='/assets/images/pai.jpg'
+            href='/assets/images/asd.jpg'
           />
         </SwiperSlide>
         <SwiperSlide>
           <CardSlider
-            href='/assets/images/pai.jpg'
+            href='/assets/images/asd.jpg'
           />
         </SwiperSlide>
         <SwiperSlide>
           <CardSlider
-            href='/assets/images/pai.jpg'
+            href='/assets/images/asd.jpg'
           />
         </SwiperSlide>
       </Swiper>
