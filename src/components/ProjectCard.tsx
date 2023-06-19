@@ -20,7 +20,7 @@ const ProjectCard: FC<ProjectCardProps> = ({
     >
       {titile}
       <span className='text-gray-500 text-xs'>{subtitle}</span>
-      <div className='w-full h-[1px] bg-neutral-700' />
+      <div className='w-full h-[2px] bg-neutral-700' />
       <span className='text-gray-500 text-xs'>{year}</span>
     </button>
   )
