@@ -18,7 +18,7 @@ const ProjectCard: FC<ProjectCardProps> = ({
     <>
       <button 
         onClick={() => setIsVisible((prevState) => !prevState)}
-        className='flex items-center justify-start transition-all duration-500 hover:bg-neutral-800 w-full px-2 py-3 rounded-xl gap-2'
+        className='flex items-center justify-between transition-all duration-500 hover:bg-neutral-800 w-full px-2 py-3 rounded-xl gap-2'
       >
         {projectInfo.title}
         <span className='text-gray-500 text-xs'>{projectInfo.subtitle}</span>
