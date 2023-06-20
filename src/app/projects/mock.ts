@@ -22,10 +22,10 @@ export const projectsMock = [
   {
     id: 3,
     year: '2022',
-    title: 'string',
-    subtitle: 'string',
+    title: 'WAITERAPP',
+    subtitle: 'Food app',
     description: 'string',
-    href: '/assets/images/asd.jpg',
+    href: '/assets/projects/aa.png',
     githubLink: 'https://tailwindcss.com/docs/customizing-colors',
   }
 ] as ProjectInfoProps[]
