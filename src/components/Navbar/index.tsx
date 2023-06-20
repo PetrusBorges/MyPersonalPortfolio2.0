@@ -3,7 +3,7 @@ import NavbarButton from "./NavbarButton"
 const Navbar = () => {
   return (
     <nav
-      className='border-2 border-neutral-700 hover:border-transparent flex items-center justify-center gap-1 p-2 rounded-full absolute bottom-7 duration-500'
+      className='border-2 border-neutral-700 hover:border-transparent flex items-center justify-center gap-1 p-2 rounded-full fixed bottom-7 duration-500'
     >
       <NavbarButton 
         isButton
