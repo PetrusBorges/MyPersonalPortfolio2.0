@@ -20,7 +20,7 @@ const Navbar = () => {
         src="../assets/icons/photoIcon.svg"
         href='/photos'
       />
-      <div className="w-[1px] h-10 bg-neutral-800 mx-1" />
+      <div className="w-[1px] h-10 bg-neutral-700 mx-1" />
       <NavbarButton 
         isButton
         src="../assets/icons/mailIcon.svg"
