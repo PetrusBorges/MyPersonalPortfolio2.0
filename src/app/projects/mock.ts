@@ -25,7 +25,7 @@ export const projectsMock = [
     title: 'COFFEDelivery',
     subtitle: 'Food app',
     description: 'COFFEDelivery é uma plataforma inovadora de entrega de café, proporcionando uma experiência exclusiva aos amantes dessa bebida diretamente na palma de suas mãos. Através de dispositivos móveis, os usuários têm acesso a um cardápio completo de cafés especiais, com a comodidade de realizar pedidos e receber suas bebidas preferidas no conforto de onde estiverem. Aplicação feita em Node.js, React e React Native.',
-    href: '/assets/projects/coffeapp.png',
+    href: '/assets/projects/coffedeliveryapp.png',
     githubLink: 'https://github.com/PetrusBorges/COFFEDelivery',
   },
   {

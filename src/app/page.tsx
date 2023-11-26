@@ -8,6 +8,7 @@ import Slider from "@/components/Slider"
 
 export default function Home() {
   const [isVisible, setIsVisible] = useState<boolean>(false)
+  const [isBrazil, setIsBrazil] = useState<boolean>(true)
 
   useEffect(() => {
     const showSlider = () => {
@@ -53,19 +54,45 @@ export default function Home() {
                 height={22}
               />
             </div>
-            <p className="text-neutral-500">Front End Developer | Full Stack Developer</p>
+            <div className="flex items-center justify-center">
+              <p className="text-neutral-500">Front End Developer | Full Stack Developer</p>
+              <div className="ml-2 flex items-center justify-center gap-2">
+                <button onClick={() => setIsBrazil(true)}>
+                  <Image 
+                    width={20}
+                    height={20}
+                    src='/assets/icons/brazil.svg'
+                    alt="flag brazil"
+                  />
+                </button>
+                <button onClick={() => setIsBrazil(false)}>
+                  <Image 
+                    width={20}
+                    height={20}
+                    src='/assets/icons/eua.svg'
+                    alt="flag united states"
+                  />
+                </button>
+              </div>
+              <a href="/assets/curriculum/curriculum.pdf" download='Currículo PETRUS BORGES MACHADO' className="ml-2 text-neutral-500 border-b-2 border-transparent transition-all duration-500 hover:border-neutral-700 animate-pulse">
+                {isBrazil ? 'Curriculum' : 'CV'}
+              </a>
+            </div>
           </div>
         </div>
         <p className="text-justify">
-        Front End and Full Stack Developer with 1 year of experience creating mobile applications and software. I actively contributed to the development of more than 13 web applications as Front End using technologies such as React, Vue.js and NestJS. Furthermore, I had the opportunity to participate in the creation of 7 mobile applications using React Native.
-        I worked on web and mobile systems projects for companies in Brazil such as Eldorado Prime, Xerife do Carro, Global SCM and the United States such as HomeShine.
+        {
+          isBrazil ? 
+          'Desenvolvedor Front End e Full Stack com 1 ano de experiência na criação de aplicativos móveis e software. Contribuí ativamente no desenvolvimento de mais de 13 aplicações web como Front End utilizando tecnologias como React, Vue.js e NestJS. Além disso, tive a oportunidade de participar da criação de 7 aplicativos móveis utilizando React Native. Trabalhei em projetos de sistemas web e mobile para empresas no Brasil como Eldorado Prime, Xerife do Carro, Global SCM e Estados Unidos como HomeShine.' 
+          : 'Front End and Full Stack Developer with 1 year of experience creating mobile applications and software. I actively contributed to the development of more than 13 web applications as Front End using technologies such as React, Vue.js and NestJS. Furthermore, I had the opportunity to participate in the creation of 7 mobile applications using React Native. I worked on web and mobile systems projects for companies in Brazil such as Eldorado Prime, Xerife do Carro, Global SCM and the United States such as HomeShine.'
+        }
         </p>
         <a 
           target="_blank"
           href="https://www.linkedin.com/company/bluelogic-sistemas-e-consultoria/" 
           className="flex items-center justify-center gap-1 text-neutral-500 border-b-2 border-transparent transition-all duration-500 hover:border-neutral-700 animate-pulse"
         >
-          currently working at Bluelogic Sistemas
+          {isBrazil ? 'atualmente trabalhando na Bluelogic Sistemas' : 'currently working at Bluelogic Sistemas'}
           <Image 
             src='/assets/icons/arrowLinkIcon.svg'
             alt='iconPetrus'

@@ -17,14 +17,14 @@ const CardSlider: FC<CardSliderProps> = ({
   return (
     <button 
       onClick={() => router.push('/projects')} 
-      className='flex items-center justify-center w-full h-full rounded-lg transition-all duration-500 grayscale hover:grayscale-0'
+      className='flex items-center justify-center w-full h-52 rounded-lg transition-all duration-500 grayscale hover:grayscale-0'
     >
       <Image 
         src={href}
         alt='cardSliderIcon'
-        width={500}
-        height={500}
-        className='rounded-lg'
+        width={1200}
+        height={1200}
+        className='w-full h-full rounded-lg'
       />
     </button>
   )
