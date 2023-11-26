@@ -23,15 +23,15 @@ const ProjectCard: FC<ProjectCardProps> = ({
         className='flex items-center justify-between transition-all duration-500 hover:bg-neutral-800 w-full px-3 py-3 rounded-xl gap-2'
       >
         <div className='flex items-center justify-between gap-2 w-52'>
-          {projectInfo.title}
-          <span className='text-gray-500 text-xs'>{projectInfo.subtitle}</span>
+          <p>{projectInfo.title}</p>
+          <span className='text-gray-500 text-xs hidden md:block w-52'>{projectInfo.subtitle}</span>
         </div>
-        <div className='w-[500px] h-[2px] bg-neutral-700' />
+        <div className='w-full h-[2px] bg-neutral-700' />
         <span className='text-gray-500 text-xs'>{projectInfo.year}</span>
       </button>
 
       <div 
-        className={`rounded-lg w-full bg-neutral-800 transition-all duration-500 flex flex-col gap-2 items-center justify-start ${ isVisible === projectInfo.id ? 'visible opacity-100 h-[500px]' : 'invisible opacity-0 h-0' }`}
+        className={`rounded-lg w-full bg-neutral-800 transition-all duration-500 flex flex-col gap-2 items-center justify-start ${ isVisible === projectInfo.id ? 'visible opacity-100 h-[600px]' : 'invisible opacity-0 h-0' }`}
       >
         <div className='w-full h-72'>
           <Image 

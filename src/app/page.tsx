@@ -45,7 +45,7 @@ export default function Home() {
           />
           <div className="flex flex-col">
             <div className="flex items-center justify-start gap-1">
-              <p className="text-neutral-500 font-bold">petrus, borges</p>
+              <p className="text-neutral-500 font-bold">Petrus Borges</p>
               <Image 
                 src='/assets/icons/startIcon.svg'
                 alt='iconPetrus'
@@ -53,12 +53,12 @@ export default function Home() {
                 height={22}
               />
             </div>
-            <p className="text-neutral-500">Front End | React.js | Vue.js | Nest.js</p>
+            <p className="text-neutral-500">Front End Developer | Full Stack Developer</p>
           </div>
         </div>
         <p className="text-justify">
-          Front End Developer with 1 year of experience in creating mobile apps and software. I actively contributed to the development of more than 10 web applications as Front End, using technologies such as React, Vue.js and NestJS. Also, I had the opportunity to participate in the creation of 7 mobile apps using React Native.
-          I worked on web and mobile systems projects for companies like Vasco, Eldorado Prime, Xerife do Carro, Bahia APP, Global SCM and Pé de Podologia.
+        Front End and Full Stack Developer with 1 year of experience creating mobile applications and software. I actively contributed to the development of more than 13 web applications as Front End using technologies such as React, Vue.js and NestJS. Furthermore, I had the opportunity to participate in the creation of 7 mobile applications using React Native.
+        I worked on web and mobile systems projects for companies in Brazil such as Eldorado Prime, Xerife do Carro, Global SCM and the United States such as HomeShine.
         </p>
         <a 
           target="_blank"
