@@ -1,5 +1,5 @@
 export interface ProjectInfoProps {
-  id: number;
+  id: string;
   year: string;
   title: string;
   subtitle: string;
