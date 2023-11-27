@@ -18,7 +18,7 @@ export default function Projects() {
 
   return (
     <section
-      className="flex flex-col items-center justify-center gap-1 w-full lg:max-w-3xl px-5 lg:px-0"
+      className="flex flex-col items-center justify-center gap-[2px] w-full lg:max-w-3xl px-5 lg:px-0 overflow-y-auto max-h-92"
     >
       {projectsMock.map((project, index) => (
         <ProjectCard 
