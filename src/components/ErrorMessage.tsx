@@ -9,7 +9,7 @@ const ErrorMessage = () => {
   const router = useRouter()
 
   return (
-    <div className='flex items-center flex-col justify-start bg-neutral-700 w-96 h-96 rounded-xl border-2 border-neutral-800 shadow-2xl shadow-neutral-900'>
+    <div className='flex items-center flex-col w-[310px] justify-start bg-neutral-700 h-96 rounded-xl border-2 border-neutral-800 shadow-2xl shadow-neutral-900'>
       <div className='bg-neutral-800 w-full flex items-center justify-center rounded-t-lg h-6 relative'>
         Hello!
         <div className='absolute top-[5px] left-3 flex items-center justify-center gap-2'>
@@ -22,7 +22,7 @@ const ErrorMessage = () => {
       <div
         className='flex items-center justify-center flex-col text-center gap-5 w-full h-full'
       >
-        <Image 
+        <Image
           src='/assets/icons/errorIcon.svg'
           alt='ErrorIcon'
           width={88}

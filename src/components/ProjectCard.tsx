@@ -39,7 +39,7 @@ const ProjectCard: FC<ProjectCardProps> = ({
           className={`bg-black/50 absolute top-0 left-0 flex items-center justify-center w-full h-full transition-all duration-500 ${isVisible === projectInfo.id ? 'visible opacity-100' : 'invisible opacity-0' }`}
         >
           <div
-            className={`z-30 rounded-lg w-full lg:max-w-3xl bg-neutral-800 flex flex-col gap-2 items-center justify-start fixed h-[600px]`}
+            className={`z-30 rounded-lg w-full sm:w-[600px] md:w-[760px] bg-neutral-800 flex flex-col gap-2 items-center justify-start fixed`}
           >
             <button
               onClick={() => handleOpen('')}
@@ -63,7 +63,7 @@ const ProjectCard: FC<ProjectCardProps> = ({
               />
             </div>
 
-            <p className='h-full w-full break-words px-3'>
+            <p className='h-full w-full break-words px-3 text-sm sm:text-base'>
               {projectInfo.description}
             </p>
 
