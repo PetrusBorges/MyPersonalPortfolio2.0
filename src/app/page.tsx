@@ -46,7 +46,7 @@ export default function Home() {
           />
           <div className="flex flex-col">
             <div className="flex items-center justify-start gap-1">
-              <p className="text-neutral-500 font-bold">Petrus Borges</p>
+              <p className="text-neutral-500 font-bold">Petrus Borges.</p>
               <Image
                 src='/assets/icons/startIcon.svg'
                 alt='iconPetrus'
